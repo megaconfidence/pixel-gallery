@@ -1,0 +1,16 @@
+name = "Sunset"
+
+[colors]
+background = "#1a1423"
+text = "#fff4e6"
+accent = "#ff8205"
+
+[layout]
+columns = 4
+thumbnail_px = "{{ 64 * 4 }}"
+
+[cache]
+max_age = "{{ days(7) }}"
+
+[uploads]
+max_size = "{{ megabytes(25) }}"

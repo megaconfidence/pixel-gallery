@@ -1,0 +1,16 @@
+name = "Midnight"
+
+[colors]
+background = "#0b1021"
+text = "#e8ecff"
+accent = "#7aa2ff"
+
+[layout]
+columns = 3
+thumbnail_px = "{{ 80 * 4 }}"
+
+[cache]
+max_age = "{{ days(1) }}"
+
+[uploads]
+max_size = "{{ megabytes(10) }}"
